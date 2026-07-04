@@ -9,6 +9,17 @@ app_file: app.py
 pinned: false
 ---
 
+---
+title: Resume Intelligence Copilot
+emoji: 🧠
+colorFrom: purple
+colorTo: blue
+sdk: gradio
+sdk_version: "4.31.5"
+app_file: app.py
+pinned: false
+---
+
 # 🧠 Resume Intelligence Copilot
 
 An explainable AI system that analyzes a candidate's resume against a job
