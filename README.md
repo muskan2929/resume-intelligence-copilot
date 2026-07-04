@@ -116,16 +116,7 @@ grant it repo scope, then push using:
 
 ---
 
-## 🤗 Deploy on Hugging Face Spaces (Free)
 
-1. Create a new Space at huggingface.co/new-space with SDK Gradio and Hardware CPU basic (free).
-2. Push this repo to the Space:
-
-    git remote add space https://huggingface.co/spaces/muskan2929/resume-intelligence-copilot
-    git push space main
-
-3. Hugging Face will auto-install requirements.txt and run app.py.
-4. Your app will be live at https://huggingface.co/spaces/muskan2929/resume-intelligence-copilot
 
 ---
 
