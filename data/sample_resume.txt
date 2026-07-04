@@ -1,0 +1,24 @@
+John Doe
+john.doe@email.com | +1-555-1234 | linkedin.com/in/johndoe
+
+Summary
+Aspiring machine learning engineer with a passion for NLP and computer vision.
+
+Skills
+Python, PyTorch, TensorFlow, scikit-learn, SQL, Git, Docker, spaCy
+
+Experience
+Machine Learning Intern - TechCorp (Jun 2023 - Dec 2023)
+- Built a text classification pipeline using transformers.
+- Improved model accuracy by 12% through data augmentation.
+
+Projects
+Resume Screener App
+- Built an NLP based resume screener using sentence transformers.
+
+Education
+B.Tech in Computer Science, XYZ University (2021 - 2025)
+
+Achievements
+- Winner, National Hackathon 2023
+- AWS Certified Cloud Practitioner
