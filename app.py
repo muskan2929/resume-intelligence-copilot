@@ -17,6 +17,14 @@ import tempfile
 from typing import Tuple
 
 import gradio as gr
+import subprocess
+import importlib.util
+
+# Ensure spaCy's English model is available (HF Spaces doesn't always
+# install it from requirements.txt reliably, so we check at runtime).
+if importlib.util.find_spec("en_core_web_sm") is None:
+    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"], check=True)
+
 
 from utils.resume_parser import parse_resume
 from model.analyzer import analyze_resume
